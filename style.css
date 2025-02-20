@@ -1,0 +1,20 @@
+#navbar {
+    padding: 10px 200px;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#main .card .card-body  {
+    display: flex;
+justify-content: center;
+}
+
+
+#main .card .card-body button:hover{
+
+}
