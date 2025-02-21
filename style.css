@@ -1,20 +1,61 @@
 #navbar {
-    padding: 10px 200px;
+    padding: 8px 200px;
+    font-size: medium;
+    margin-bottom: 20px;
 }
 
 #main {
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 20px;
+    
+    
 }
 
 #main .card .card-body  {
     display: flex;
 justify-content: center;
+flex-direction: column;
 }
 
 
-#main .card .card-body button:hover{
 
+
+#main .card .card-body-button {
+display: flex;
+justify-content: center;
+gap: 9px;
+padding-top: 12px;
+padding-bottom: 12px;
+font-size: 40px;
+}
+
+#main .card .card-body-button button{
+   
+    font-size: 14px;
+    }
+
+
+#navbar button {
+    font-size: medium;
+    display: flex;  
+    align-items: center;
+}
+
+#footer {
+    height: 50px;
+    padding: 0px 200px;
+    font-size: medium;
+}
+
+#main .card ul li {
+    font-size: small;
+}
+
+#main .card p {
+    font-size: small;
+}
+
+#main .card h5 {
+    font-size: medium;
 }
